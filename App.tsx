@@ -2,8 +2,9 @@ import React from 'react';
 import {StatusBar, ScrollView, useColorScheme} from 'react-native';
 // import StylingPage from './src/pages/styling';
 import tailwind from 'twrnc';
-import PasswordGenerator from './src/pages/passwordGen';
+// import PasswordGenerator from './src/pages/passwordGen';
 import {SafeAreaView} from 'react-native-safe-area-context';
+import BgChanger from './src/pages/bgChanger';
 
 let App = (): JSX.Element => {
   let colorScheme = useColorScheme();
@@ -22,7 +23,8 @@ let App = (): JSX.Element => {
         />
         <ScrollView>
           {/* <StylingPage /> */}
-          <PasswordGenerator />
+          {/* <PasswordGenerator /> */}
+          <BgChanger />
         </ScrollView>
       </SafeAreaView>
     </>

@@ -12,7 +12,7 @@ import {
 import BouncyCheckbox from 'react-native-bouncy-checkbox';
 import tailwind from 'twrnc';
 import * as Yup from 'yup';
-import TextComp from '../components/textComp';
+import TextComp from '../common/textComp';
 import {Formik} from 'formik';
 
 let PasswordGenerator = (): JSX.Element => {
